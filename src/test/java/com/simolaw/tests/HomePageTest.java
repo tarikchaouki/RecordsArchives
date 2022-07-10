@@ -28,6 +28,7 @@ public class HomePageTest extends BaseClass{
 		
 		 initializeBrowser();
 	     loginPage = new LoginPage();
+	     System.out.println("hello");
 		
         }
     //  code test for home page title
