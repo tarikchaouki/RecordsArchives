@@ -30,7 +30,7 @@ public class LoginTest extends BaseClass{
 		 initializeBrowser();
 	         log.info("browser got launched");
 		 System.out.println("test1");
-		 System.out.println("hey");
+		 System.out.println("hello");
         
                }
    
