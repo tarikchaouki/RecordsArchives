@@ -28,8 +28,9 @@ public class LoginTest extends BaseClass{
 	public void SecondSetUp() throws IOException {
      
 		 initializeBrowser();
-	     log.info("browser got launched");
+	         log.info("browser got launched");
 		 System.out.println("test1");
+		 System.out.println("hello");
         
                }
    
