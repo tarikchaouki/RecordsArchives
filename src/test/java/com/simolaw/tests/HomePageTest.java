@@ -22,7 +22,7 @@ public class HomePageTest extends BaseClass{
     HomePage homePage = new HomePage(); 
     Logger log =  LogManager.getLogger(LoginTest.class.getName());
    
-    
+    // method initi
     @BeforeMethod
 	public void SetUp() throws Throwable{
 		
