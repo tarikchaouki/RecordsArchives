@@ -31,7 +31,7 @@ public class HomePageTest extends BaseClass{
 	     
 		
         }
-    //  code test for home page title
+    
 	@Test
     public void HomePageTitleValid() throws InterruptedException  {
 		
