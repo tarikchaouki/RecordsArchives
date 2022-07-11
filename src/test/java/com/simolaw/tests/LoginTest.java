@@ -23,7 +23,7 @@ public class LoginTest extends BaseClass{
 	     HomePage homePage ;
 	     Logger log =  LogManager.getLogger(LoginTest.class.getName());
 	    
-	    
+	// initi method    
     @BeforeMethod
 	public void SecondSetUp() throws IOException {
      
