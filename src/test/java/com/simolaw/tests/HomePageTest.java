@@ -30,7 +30,7 @@ public class HomePageTest extends BaseClass{
 	     loginPage = new LoginPage();
 	     
 		
-        }
+        } 
     
 	@Test
     public void HomePageTitleValid() throws InterruptedException  {

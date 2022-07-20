@@ -5,13 +5,10 @@
     <classes>
       <class name="com.simolaw.tests.LoginTest">
         <methods>
-          <include name="loginPageTitleVald"/>
-          <include name="SetUp"/>
+          <include name="SecondSetUp"/>
           <include name="Base"/>
-          <include name="Closure"/>
-          <include name="AfterSuite"/>
           <include name="loginTest"/>
-          <include name="BeforeSuite"/>
+          <include name="AfterSuite"/>
         </methods>
       </class> <!-- com.simolaw.tests.LoginTest -->
     </classes>

@@ -16,11 +16,11 @@ import org.testng.annotations.Test;
 import com.simolaw.base.BaseClass;
 import com.simolaw.pageobjects.HomePage;
 import com.simolaw.pageobjects.LoginPage;
-
+ 
 public class LoginTest extends BaseClass{
 	       
-	     LoginPage loginPage ;
-	     HomePage homePage ;
+	     LoginPage loginPage ; 
+	     HomePage homePage ; 
 	     Logger log =  LogManager.getLogger(LoginTest.class.getName());
 	    
 	  
@@ -28,10 +28,9 @@ public class LoginTest extends BaseClass{
 	public void SecondSetUp() throws IOException {
      
 		 initializeBrowser();
-	         log.info("browser got launched");
+	     log.info("browser got launched");
 		 System.out.println("test1");
-		
-		 System.out.println("hey there");
+	     
                }
    
         
@@ -41,7 +40,7 @@ public class LoginTest extends BaseClass{
         String Title = driver.getTitle();
         Assert.assertEquals(Title,"Login page");
         log.info("get the right title ");
-    	
+    	driver.close();
         }
     
     @Test

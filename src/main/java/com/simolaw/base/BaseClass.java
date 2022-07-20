@@ -40,9 +40,9 @@ public class BaseClass {
 	  
 	
      @BeforeSuite
-    public static void Base() {
+    public static void Base() throws IOException {
             
-    	   // ExtentManager.setExtent();
+     ExtentManager.setExtent();
     
        try {
 	  
@@ -110,9 +110,9 @@ public class BaseClass {
 			 }  
 			 
 			 
-			      @AfterSuite
+			  @AfterSuite
 			    public void AfterSuite() {
-			    // ExtentManager.endReport();
+			    ExtentManager.endReport();
 			      driver.quit();
 			    }
 }
